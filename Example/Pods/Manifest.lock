@@ -1,0 +1,14 @@
+PODS:
+  - AGSwiftNotif (0.1.0)
+
+DEPENDENCIES:
+  - AGSwiftNotif (from `../`)
+
+EXTERNAL SOURCES:
+  AGSwiftNotif:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AGSwiftNotif: e37c75937cf85848879459126c9ce3ae55b27836
+
+COCOAPODS: 0.39.0

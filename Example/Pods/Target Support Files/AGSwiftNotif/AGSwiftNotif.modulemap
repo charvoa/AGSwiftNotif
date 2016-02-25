@@ -1,0 +1,6 @@
+framework module AGSwiftNotif {
+  umbrella header "AGSwiftNotif-umbrella.h"
+
+  export *
+  module * { export * }
+}

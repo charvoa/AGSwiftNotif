@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26D68DDA28862E4DB7500918CBF8EDD6 /* Pods-AGSwiftNotif_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DEA8CAB71C49838843638A2D789FE9A /* Pods-AGSwiftNotif_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C8C213ED6559D4DF30DD7C431DE0EA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		2F5ADD7063AAA8FE0FD84995E593C13E /* AGSwiftNotif-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B173E36B106CB29DDC8B2F7199C85CA /* AGSwiftNotif-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BC934D647FF404BDA45183820E5CDF3 /* Pods-AGSwiftNotif_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F06E25F6F37613221597FD5E69903E8D /* Pods-AGSwiftNotif_Tests-dummy.m */; };
+		40DFD4279B936A6084EBBDFDF3B35445 /* AGSwiftNotif.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 09FE58FABB4684DABC38AB2CE3CA6216 /* AGSwiftNotif.bundle */; };
+		884F08D6405D065187DB47628B828AD0 /* AGSwiftNotif-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 128D860815421E472677CC8F94C7A564 /* AGSwiftNotif-dummy.m */; };
+		8C1533A852947968CBA4F4FD94C84076 /* Pods-AGSwiftNotif_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 314CE29A55BAB6F64831959D69ADBF07 /* Pods-AGSwiftNotif_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		927B5E700E9D244086E7A4DF4D330CA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9699763E87C5AFC3B0C63EE3D197B7F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A825BE3603F1C619F8CC33A361323D2B /* Pods-AGSwiftNotif_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE924AC6451E0E58EBDB3C72E4AA9A /* Pods-AGSwiftNotif_Example-dummy.m */; };
+		D9AFDA3DE86D93E3670E53847B441F78 /* AGSwiftNotif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93012968C98A0BE473D1423C0E16FF3F /* AGSwiftNotif.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F4C1726E97C3FDB6F846326156A8446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8261AA6327B986F13302066660D924D3;
+			remoteInfo = AGSwiftNotif;
+		};
+		3BCCC929120CCB4C67980CEF327F784E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F2400ACBEF08C89F30E31E57A980D4A;
+			remoteInfo = "AGSwiftNotif-AGSwiftNotif";
+		};
+		F478C572CE6336C5F148BE43C6F70BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8261AA6327B986F13302066660D924D3;
+			remoteInfo = AGSwiftNotif;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0173FB0297A6A19734A20B5C670F79C4 /* Pods-AGSwiftNotif_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGSwiftNotif_Example-resources.sh"; sourceTree = "<group>"; };
+		0203CB76284B053F0E9F4FE1DB5A463C /* Pods-AGSwiftNotif_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGSwiftNotif_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		09FE58FABB4684DABC38AB2CE3CA6216 /* AGSwiftNotif.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGSwiftNotif.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		128D860815421E472677CC8F94C7A564 /* AGSwiftNotif-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGSwiftNotif-dummy.m"; sourceTree = "<group>"; };
+		19867B74795916146D0CE9E56DA19198 /* AGSwiftNotif.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGSwiftNotif.xcconfig; sourceTree = "<group>"; };
+		314CE29A55BAB6F64831959D69ADBF07 /* Pods-AGSwiftNotif_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGSwiftNotif_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3A1589C255D8E3010FC20A5371AB6BC0 /* Pods-AGSwiftNotif_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGSwiftNotif_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3C04D75DC6A91B8D90E5C9C8A5C2254B /* Pods-AGSwiftNotif_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGSwiftNotif_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4BBE924AC6451E0E58EBDB3C72E4AA9A /* Pods-AGSwiftNotif_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGSwiftNotif_Example-dummy.m"; sourceTree = "<group>"; };
+		4D54DBD4FE0F3156D026ADD46BA8CD1D /* Pods-AGSwiftNotif_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGSwiftNotif_Example-frameworks.sh"; sourceTree = "<group>"; };
+		524BCAA9992AA345CBF095CD3D8DCEAB /* Pods-AGSwiftNotif_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGSwiftNotif_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		578D48086F76308551413ABDD51C5ACE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4D447991441C984940DA2D7545162C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B173E36B106CB29DDC8B2F7199C85CA /* AGSwiftNotif-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGSwiftNotif-umbrella.h"; sourceTree = "<group>"; };
+		6C4A074B21E3F5F7B68C241C5C78B719 /* Pods-AGSwiftNotif_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGSwiftNotif_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6D3387FAF4C5A9F98844780A5BAA7D50 /* Pods-AGSwiftNotif_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGSwiftNotif_Tests.modulemap"; sourceTree = "<group>"; };
+		6E3A17843CA6F6546F4BA7E169B6EC4A /* Pods-AGSwiftNotif_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGSwiftNotif_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FFBCE56F35A1494C7137DBCCD22F855 /* Pods-AGSwiftNotif_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGSwiftNotif_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7B060F2A6CF3F670610891FB47481A96 /* Pods-AGSwiftNotif_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGSwiftNotif_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DEA8CAB71C49838843638A2D789FE9A /* Pods-AGSwiftNotif_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGSwiftNotif_Example-umbrella.h"; sourceTree = "<group>"; };
+		7F6D0DFEA430223F07B9AAE35A052EAC /* Pods-AGSwiftNotif_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGSwiftNotif_Example.modulemap"; sourceTree = "<group>"; };
+		886896F7C5777356A7992DD27BFBF595 /* Pods-AGSwiftNotif_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGSwiftNotif_Tests-resources.sh"; sourceTree = "<group>"; };
+		93012968C98A0BE473D1423C0E16FF3F /* AGSwiftNotif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGSwiftNotif.swift; sourceTree = "<group>"; };
+		9C52DBEAB2298B1A7DAA23B818C7E019 /* Pods_AGSwiftNotif_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGSwiftNotif_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68D456BBBA301E3C7F7C9E6ED8F9C74 /* Pods-AGSwiftNotif_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGSwiftNotif_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA421708682323B57388E4B31072B0E7 /* Pods_AGSwiftNotif_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGSwiftNotif_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DE299C7D750C78C49D5EF8826312777C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A9323F77E4AC9D6A8CA0F1EEEC2088 /* AGSwiftNotif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGSwiftNotif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06E25F6F37613221597FD5E69903E8D /* Pods-AGSwiftNotif_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGSwiftNotif_Tests-dummy.m"; sourceTree = "<group>"; };
+		FC7974D4CC4A9E3A14683C672582D731 /* AGSwiftNotif-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGSwiftNotif-prefix.pch"; sourceTree = "<group>"; };
+		FFE29A954AC862461B0250DD4B68E73C /* AGSwiftNotif.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AGSwiftNotif.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10D163AE1128E8FFFA07F97C83254F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927B5E700E9D244086E7A4DF4D330CA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E1E2CB6667A340A277CDD97D91C7395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8C213ED6559D4DF30DD7C431DE0EA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6EDFC2258D117B3DBD3D917ABFCA6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9699763E87C5AFC3B0C63EE3D197B7F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA131632ACCAD43E7A72CA429330530D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D6BE129F5798E6A4505D8E0C32C6C01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09FE58FABB4684DABC38AB2CE3CA6216 /* AGSwiftNotif.bundle */,
+				E7A9323F77E4AC9D6A8CA0F1EEEC2088 /* AGSwiftNotif.framework */,
+				BA421708682323B57388E4B31072B0E7 /* Pods_AGSwiftNotif_Example.framework */,
+				9C52DBEAB2298B1A7DAA23B818C7E019 /* Pods_AGSwiftNotif_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6484FF121713C59B362F33BCC3479819 /* Pods-AGSwiftNotif_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DE299C7D750C78C49D5EF8826312777C /* Info.plist */,
+				7F6D0DFEA430223F07B9AAE35A052EAC /* Pods-AGSwiftNotif_Example.modulemap */,
+				7B060F2A6CF3F670610891FB47481A96 /* Pods-AGSwiftNotif_Example-acknowledgements.markdown */,
+				6E3A17843CA6F6546F4BA7E169B6EC4A /* Pods-AGSwiftNotif_Example-acknowledgements.plist */,
+				4BBE924AC6451E0E58EBDB3C72E4AA9A /* Pods-AGSwiftNotif_Example-dummy.m */,
+				4D54DBD4FE0F3156D026ADD46BA8CD1D /* Pods-AGSwiftNotif_Example-frameworks.sh */,
+				0173FB0297A6A19734A20B5C670F79C4 /* Pods-AGSwiftNotif_Example-resources.sh */,
+				7DEA8CAB71C49838843638A2D789FE9A /* Pods-AGSwiftNotif_Example-umbrella.h */,
+				3C04D75DC6A91B8D90E5C9C8A5C2254B /* Pods-AGSwiftNotif_Example.debug.xcconfig */,
+				6FFBCE56F35A1494C7137DBCCD22F855 /* Pods-AGSwiftNotif_Example.release.xcconfig */,
+			);
+			name = "Pods-AGSwiftNotif_Example";
+			path = "Target Support Files/Pods-AGSwiftNotif_Example";
+			sourceTree = "<group>";
+		};
+		704C9870507F513DA320066B3088DA89 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F09E861A0EA8C7F6E42126383D310C28 /* AGSwiftNotif */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				704C9870507F513DA320066B3088DA89 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2D6BE129F5798E6A4505D8E0C32C6C01 /* Products */,
+				98F586C898E9A6553C25312CD712662F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98F586C898E9A6553C25312CD712662F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6484FF121713C59B362F33BCC3479819 /* Pods-AGSwiftNotif_Example */,
+				9DB6896B2A5A7A64AEE8028ECE881C15 /* Pods-AGSwiftNotif_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9A9E14C24EA9B4F65FBB4DB2E24DE47F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFE29A954AC862461B0250DD4B68E73C /* AGSwiftNotif.modulemap */,
+				19867B74795916146D0CE9E56DA19198 /* AGSwiftNotif.xcconfig */,
+				128D860815421E472677CC8F94C7A564 /* AGSwiftNotif-dummy.m */,
+				FC7974D4CC4A9E3A14683C672582D731 /* AGSwiftNotif-prefix.pch */,
+				6B173E36B106CB29DDC8B2F7199C85CA /* AGSwiftNotif-umbrella.h */,
+				5B4D447991441C984940DA2D7545162C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AGSwiftNotif";
+			sourceTree = "<group>";
+		};
+		9DB6896B2A5A7A64AEE8028ECE881C15 /* Pods-AGSwiftNotif_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				578D48086F76308551413ABDD51C5ACE /* Info.plist */,
+				6D3387FAF4C5A9F98844780A5BAA7D50 /* Pods-AGSwiftNotif_Tests.modulemap */,
+				A68D456BBBA301E3C7F7C9E6ED8F9C74 /* Pods-AGSwiftNotif_Tests-acknowledgements.markdown */,
+				524BCAA9992AA345CBF095CD3D8DCEAB /* Pods-AGSwiftNotif_Tests-acknowledgements.plist */,
+				F06E25F6F37613221597FD5E69903E8D /* Pods-AGSwiftNotif_Tests-dummy.m */,
+				6C4A074B21E3F5F7B68C241C5C78B719 /* Pods-AGSwiftNotif_Tests-frameworks.sh */,
+				886896F7C5777356A7992DD27BFBF595 /* Pods-AGSwiftNotif_Tests-resources.sh */,
+				314CE29A55BAB6F64831959D69ADBF07 /* Pods-AGSwiftNotif_Tests-umbrella.h */,
+				0203CB76284B053F0E9F4FE1DB5A463C /* Pods-AGSwiftNotif_Tests.debug.xcconfig */,
+				3A1589C255D8E3010FC20A5371AB6BC0 /* Pods-AGSwiftNotif_Tests.release.xcconfig */,
+			);
+			name = "Pods-AGSwiftNotif_Tests";
+			path = "Target Support Files/Pods-AGSwiftNotif_Tests";
+			sourceTree = "<group>";
+		};
+		9F5090A7930AFE3B5D66CD730EC47459 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				93012968C98A0BE473D1423C0E16FF3F /* AGSwiftNotif.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B13A114B6342BEEE6E8D0C637782CC44 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9F5090A7930AFE3B5D66CD730EC47459 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F09E861A0EA8C7F6E42126383D310C28 /* AGSwiftNotif */ = {
+			isa = PBXGroup;
+			children = (
+				B13A114B6342BEEE6E8D0C637782CC44 /* Pod */,
+				9A9E14C24EA9B4F65FBB4DB2E24DE47F /* Support Files */,
+			);
+			name = AGSwiftNotif;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C0FB3ACFECB04C362D00253081176FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D68DDA28862E4DB7500918CBF8EDD6 /* Pods-AGSwiftNotif_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFB98F3A2FEF04F6752D67CA1CDD424 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1533A852947968CBA4F4FD94C84076 /* Pods-AGSwiftNotif_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAEBA836764302D7832C75DCDF34E91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5ADD7063AAA8FE0FD84995E593C13E /* AGSwiftNotif-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		152402F975D8A7D48CB4DE20B89E5107 /* Pods-AGSwiftNotif_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DDF956C9E196296D960B59A132147B3 /* Build configuration list for PBXNativeTarget "Pods-AGSwiftNotif_Tests" */;
+			buildPhases = (
+				DE20E7CC3785CFFF372D47F81D7CD479 /* Sources */,
+				4E6EDFC2258D117B3DBD3D917ABFCA6B /* Frameworks */,
+				9CFB98F3A2FEF04F6752D67CA1CDD424 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1762DEB9F2F2E0B91918B5CB5E2FC49 /* PBXTargetDependency */,
+			);
+			name = "Pods-AGSwiftNotif_Tests";
+			productName = "Pods-AGSwiftNotif_Tests";
+			productReference = 9C52DBEAB2298B1A7DAA23B818C7E019 /* Pods_AGSwiftNotif_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C218ABE793BEEE62A6224E56193DAF1 /* Pods-AGSwiftNotif_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A9160ACD09130D8A168F8C6813A9FA6 /* Build configuration list for PBXNativeTarget "Pods-AGSwiftNotif_Example" */;
+			buildPhases = (
+				8FB4FD8056F5982FE4DE54057818D8D4 /* Sources */,
+				4E1E2CB6667A340A277CDD97D91C7395 /* Frameworks */,
+				4C0FB3ACFECB04C362D00253081176FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AC9BCD196795580F72CA4F3FD02C280 /* PBXTargetDependency */,
+			);
+			name = "Pods-AGSwiftNotif_Example";
+			productName = "Pods-AGSwiftNotif_Example";
+			productReference = BA421708682323B57388E4B31072B0E7 /* Pods_AGSwiftNotif_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F2400ACBEF08C89F30E31E57A980D4A /* AGSwiftNotif-AGSwiftNotif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9598596145423D4D861CD8A0414B0475 /* Build configuration list for PBXNativeTarget "AGSwiftNotif-AGSwiftNotif" */;
+			buildPhases = (
+				D6AD34873266270E0C6757926C954DE9 /* Sources */,
+				EA131632ACCAD43E7A72CA429330530D /* Frameworks */,
+				15561D070791A803C2D747560F861281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AGSwiftNotif-AGSwiftNotif";
+			productName = "AGSwiftNotif-AGSwiftNotif";
+			productReference = 09FE58FABB4684DABC38AB2CE3CA6216 /* AGSwiftNotif.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8261AA6327B986F13302066660D924D3 /* AGSwiftNotif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5838AE52B7D219A8C79ED6D03CAF6A9C /* Build configuration list for PBXNativeTarget "AGSwiftNotif" */;
+			buildPhases = (
+				FDB89BB1C1C8672EC9FEE0E3E75C0A59 /* Sources */,
+				10D163AE1128E8FFFA07F97C83254F70 /* Frameworks */,
+				06ED0EC655BD9D034D077981779B1CCC /* Resources */,
+				CDAEBA836764302D7832C75DCDF34E91 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11E9CCE18DB23EF0DA6A2754CB56C9FF /* PBXTargetDependency */,
+			);
+			name = AGSwiftNotif;
+			productName = AGSwiftNotif;
+			productReference = E7A9323F77E4AC9D6A8CA0F1EEEC2088 /* AGSwiftNotif.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2D6BE129F5798E6A4505D8E0C32C6C01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8261AA6327B986F13302066660D924D3 /* AGSwiftNotif */,
+				7F2400ACBEF08C89F30E31E57A980D4A /* AGSwiftNotif-AGSwiftNotif */,
+				6C218ABE793BEEE62A6224E56193DAF1 /* Pods-AGSwiftNotif_Example */,
+				152402F975D8A7D48CB4DE20B89E5107 /* Pods-AGSwiftNotif_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06ED0EC655BD9D034D077981779B1CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DFD4279B936A6084EBBDFDF3B35445 /* AGSwiftNotif.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15561D070791A803C2D747560F861281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FB4FD8056F5982FE4DE54057818D8D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A825BE3603F1C619F8CC33A361323D2B /* Pods-AGSwiftNotif_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AD34873266270E0C6757926C954DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE20E7CC3785CFFF372D47F81D7CD479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC934D647FF404BDA45183820E5CDF3 /* Pods-AGSwiftNotif_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB89BB1C1C8672EC9FEE0E3E75C0A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884F08D6405D065187DB47628B828AD0 /* AGSwiftNotif-dummy.m in Sources */,
+				D9AFDA3DE86D93E3670E53847B441F78 /* AGSwiftNotif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11E9CCE18DB23EF0DA6A2754CB56C9FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AGSwiftNotif-AGSwiftNotif";
+			target = 7F2400ACBEF08C89F30E31E57A980D4A /* AGSwiftNotif-AGSwiftNotif */;
+			targetProxy = 3BCCC929120CCB4C67980CEF327F784E /* PBXContainerItemProxy */;
+		};
+		8AC9BCD196795580F72CA4F3FD02C280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGSwiftNotif;
+			target = 8261AA6327B986F13302066660D924D3 /* AGSwiftNotif */;
+			targetProxy = F478C572CE6336C5F148BE43C6F70BF1 /* PBXContainerItemProxy */;
+		};
+		C1762DEB9F2F2E0B91918B5CB5E2FC49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGSwiftNotif;
+			target = 8261AA6327B986F13302066660D924D3 /* AGSwiftNotif */;
+			targetProxy = 1F4C1726E97C3FDB6F846326156A8446 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28BA4F2DFF63B75F473CBABE823C9191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C04D75DC6A91B8D90E5C9C8A5C2254B /* Pods-AGSwiftNotif_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AGSwiftNotif_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGSwiftNotif_Example/Pods-AGSwiftNotif_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AGSwiftNotif_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		305083BE5ABE7205E46E4CEDABDA5086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19867B74795916146D0CE9E56DA19198 /* AGSwiftNotif.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGSwiftNotif/AGSwiftNotif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGSwiftNotif/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGSwiftNotif/AGSwiftNotif.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AGSwiftNotif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		328CAB2D8E12E18B729FF12B860E13E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19867B74795916146D0CE9E56DA19198 /* AGSwiftNotif.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGSwiftNotif/AGSwiftNotif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGSwiftNotif/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGSwiftNotif/AGSwiftNotif.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AGSwiftNotif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		352638D05D67DEAB6320EF12677E8D5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FFBCE56F35A1494C7137DBCCD22F855 /* Pods-AGSwiftNotif_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AGSwiftNotif_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGSwiftNotif_Example/Pods-AGSwiftNotif_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AGSwiftNotif_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5E559F86A6634BDB243C58F2AF29454A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19867B74795916146D0CE9E56DA19198 /* AGSwiftNotif.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AGSwiftNotif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B34B82B2BD57C85DCE3BFAAA4C69C242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0203CB76284B053F0E9F4FE1DB5A463C /* Pods-AGSwiftNotif_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AGSwiftNotif_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGSwiftNotif_Tests/Pods-AGSwiftNotif_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AGSwiftNotif_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF44F5CD2F0DA9427B4B571D262955FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1589C255D8E3010FC20A5371AB6BC0 /* Pods-AGSwiftNotif_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AGSwiftNotif_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGSwiftNotif_Tests/Pods-AGSwiftNotif_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AGSwiftNotif_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DCDE19E97D0AA5CEB7760217976A0597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19867B74795916146D0CE9E56DA19198 /* AGSwiftNotif.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AGSwiftNotif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5838AE52B7D219A8C79ED6D03CAF6A9C /* Build configuration list for PBXNativeTarget "AGSwiftNotif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305083BE5ABE7205E46E4CEDABDA5086 /* Debug */,
+				328CAB2D8E12E18B729FF12B860E13E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A9160ACD09130D8A168F8C6813A9FA6 /* Build configuration list for PBXNativeTarget "Pods-AGSwiftNotif_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BA4F2DFF63B75F473CBABE823C9191 /* Debug */,
+				352638D05D67DEAB6320EF12677E8D5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DDF956C9E196296D960B59A132147B3 /* Build configuration list for PBXNativeTarget "Pods-AGSwiftNotif_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34B82B2BD57C85DCE3BFAAA4C69C242 /* Debug */,
+				CF44F5CD2F0DA9427B4B571D262955FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9598596145423D4D861CD8A0414B0475 /* Build configuration list for PBXNativeTarget "AGSwiftNotif-AGSwiftNotif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E559F86A6634BDB243C58F2AF29454A /* Debug */,
+				DCDE19E97D0AA5CEB7760217976A0597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

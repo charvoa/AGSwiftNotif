@@ -7,11 +7,16 @@
 //
 
 import UIKit
-
+import AGSwiftNotif
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let notification = AGSwiftNotif()
+        notification.registerObserver("test") { (notification:NSNotification!) -> Void in
+            print("OK")
+        }
+        notification.postNotification("test")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
