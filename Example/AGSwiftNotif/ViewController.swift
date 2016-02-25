@@ -16,7 +16,11 @@ class ViewController: UIViewController {
         notification.registerObserver("test") { (notification:NSNotification!) -> Void in
             print("OK")
         }
+        notification.registerGroupObserver(["test","coucou"]) { (notification:NSNotification!) -> Void in
+            print(notification.name)
+        }
         notification.postNotification("test")
+        notification.postNotification("coucou")
         // Do any additional setup after loading the view, typically from a nib.
     }
 

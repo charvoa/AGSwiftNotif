@@ -17,10 +17,7 @@ public class AGSwiftNotif {
         NSNotificationCenter.defaultCenter().postNotificationName(name, object: nil, userInfo: infos)
     }
     
-    public func registerGroupObserver(names:[String], functions:[String],object:AnyObject?=nil, completionHandler:(NSNotification!)->Void){
-        if (names.count != functions.count){
-            fatalError("You must have one function for every observer")
-        }
+    public func registerGroupObserver(names:[String],object:AnyObject?=nil, completionHandler:(NSNotification!)->Void){
         for name in names{
             let observer = NSNotificationCenter.defaultCenter().addObserverForName(name, object: object, queue: nil, usingBlock: completionHandler)
             observerList.append(observer)
