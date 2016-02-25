@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/AGSwiftNotif.svg?style=flat)](http://cocoapods.org/pods/AGSwiftNotif)
 [![Platform](https://img.shields.io/cocoapods/p/AGSwiftNotif.svg?style=flat)](http://cocoapods.org/pods/AGSwiftNotif)
 
-## Usage
+## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
@@ -20,6 +20,34 @@ it, simply add the following line to your Podfile:
 pod "AGSwiftNotif"
 ```
 
+## Usage
+
+### Post a notification
+
+```swift
+import AGSwiftNotif
+
+let notification = AGSwiftNotif()
+notification.post("test")
+```
+
+### Register for a notification
+
+```swift
+notification.registerObserver("test"){(notification:NSNotification!)->Void in
+  // RECEIVE NOTIFICATION
+}
+}
+```
+
+### Register for multiple notification
+
+```swift
+notification.registerObserver(["test","notifcation"]){(notification:NSNotification!)->Void in
+  //CALL WHEN test or notification is posted
+}
+}
+```
 ## Author
 
 antoinegarcia, antoine.garcia@epitech.eu
