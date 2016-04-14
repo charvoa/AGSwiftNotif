@@ -28,7 +28,7 @@ pod "AGSwiftNotif"
 import AGSwiftNotif
 
 let notification = AGSwiftNotif()
-notification.post("test")
+notification.postNotification("test")
 ```
 
 ### Register for a notification
@@ -37,15 +37,13 @@ notification.post("test")
 notification.registerObserver("test"){(notification:NSNotification!)->Void in
   // RECEIVE NOTIFICATION
 }
-}
 ```
 
 ### Register for multiple notification
 
 ```swift
 notification.registerObserver(["test","notifcation"]){(notification:NSNotification!)->Void in
-  //CALL WHEN test or notification is posted
-}
+  //CALLED WHEN ”test” or ”notification” is posted
 }
 ```
 ## Author
